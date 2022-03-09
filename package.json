@@ -1,0 +1,25 @@
+{
+  "name": "code-diff-html",
+  "version": "1.0.6",
+  "description": "简便的代码对比工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "diff",
+    "code-diff",
+    "gitlab-diff",
+    "diff2html",
+    "jsdiff",
+    "json",
+    "side-by-side",
+    "code-diff-html"
+    ],
+  "author": "ouqin",
+  "license": "MIT",
+  "dependencies": {
+    "diff": "^5.0.0",
+    "diff2html": "^3.4.16"
+  }
+}
