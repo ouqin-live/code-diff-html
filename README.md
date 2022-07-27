@@ -1,8 +1,9 @@
 # code-diff-html
 
-> 一个类似gitlab的代码对比工具
+> 一个类似gitlab的代码对比（diff）工具
 
 > 一个基于diff.js和diff2html封装的库，简化了使用
+
 
 ## 下载
 
