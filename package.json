@@ -1,7 +1,7 @@
 {
   "name": "code-diff-html",
   "version": "2.1.0",
-  "description": "简便的代码对比工具",
+  "description": "开箱即用的代码对比工具",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
