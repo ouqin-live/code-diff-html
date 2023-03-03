@@ -1,6 +1,6 @@
 {
   "name": "code-diff-html",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "简便的代码对比工具",
   "main": "index.js",
   "scripts": {

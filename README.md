@@ -107,6 +107,7 @@ export default class APP extends React.Component {
 | newObj   | object | 新数据对象          | 是       |
 | domId    | string | 内容承载的dom节点id | 是       |
 | options  | object | 展现框的配置项      | 否       |
+| context  | number | 只显示差异项前后多少行的数据，其余折叠，不填则显示全文   | 否     |
 
 
 

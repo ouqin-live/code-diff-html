@@ -3,11 +3,11 @@ import { parse } from "diff2html";
 import { Diff2HtmlUI } from "diff2html/lib/ui/js/diff2html-ui";
 import "diff2html/bundles/css/diff2html.min.css";
 
-export function drawDiff({fileName='',oldObj,newObj,domId,options={}}){
+export function drawDiff({fileName='',oldObj,newObj,domId,options={},context=99999}){
 
     const oldString = JSON.stringify(oldObj, null, 2);
     const newString = JSON.stringify(newObj, null, 2);
-    const diffStr = createPatch(fileName,oldString, newString,'','', { context: 99999 })
+    const diffStr = createPatch(fileName,oldString, newString,'','', { context })
     const diffJson = parse(diffStr);
 
     var targetElement = document.getElementById(domId);
